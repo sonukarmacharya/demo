@@ -1,0 +1,92 @@
+h1 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.top-image {
+  position: relative;
+  min-width: 100vw;
+}
+
+.image-text {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  color: white;
+}
+@media (max-width: 600px) {
+  .image-text {
+    position: absolute;
+    top: 15%;
+    /* left: 100%; */
+    color: white;
+  }
+}
+
+.image-text hr {
+  background-color: white;
+}
+
+.active {
+  color: green;
+}
+
+.main {
+  position: absolute;
+  padding: 10px;
+  left: 5%;
+  top: 75%;
+  width: 90%;
+  background: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.design-image {
+  width: 18%;
+  height: 10%;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.body,
+.blog-body {
+  border-top: double;
+  padding: 35px 0px 35px 0px;
+}
+@media (max-width: 600px) {
+  .main {
+    position: absolute;
+    padding: 10px;
+    left: 15%;
+    top: 45%;
+    width: 100%;
+    background: white;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.blog-body {
+  width: auto;
+}
+
+.pic-slide {
+  float: right;
+}
+
+.blog-image {
+  height: 20%;
+  width: 20%;
+}
+/*# sourceMappingURL=style.css.map */
